@@ -35,24 +35,33 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
-    ],
+    "credentials": [],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/NotionToMarkdown/NotionToMarkdown.node.js"
+    ],
+    "version": 1,
+    "categories": [
+      "Development",
+      "Marketing"
     ]
   },
   "devDependencies": {
+    "@types/markdown-table": "^2.0.0",
+    "@types/node-fetch": "^2.6.11",
     "@typescript-eslint/parser": "^7.15.0",
     "eslint": "^8.56.0",
     "eslint-plugin-n8n-nodes-base": "^1.16.1",
     "gulp": "^4.0.2",
+    "n8n-workflow": "*",
     "prettier": "^3.3.2",
     "typescript": "^5.5.3"
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "dependencies": {
+    "@tryfabric/martian": "^1.2.4",
+    "markdown-table": "^2.0.0",
+    "node-fetch": "^2.7.0"
   }
 }
