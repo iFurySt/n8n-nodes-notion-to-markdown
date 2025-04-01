@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-notion-to-markdown",
   "version": "0.1.0",
-  "description": "",
+  "description": "A custom n8n node that converts Notion pages to Markdown format by processing their blocks. This node allows you to seamlessly transform Notion content into well-structured Markdown documents, preserving the hierarchical structure and formatting of your Notion pages.",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Leo",
+    "email": "ifuryst@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/iFurySt/n8n-nodes-notion-to-markdown.git"
   },
   "engines": {
     "node": ">=18.10",

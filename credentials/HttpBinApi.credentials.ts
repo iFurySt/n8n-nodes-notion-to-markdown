@@ -8,7 +8,7 @@ import {
 export class HttpBinApi implements ICredentialType {
 	name = 'httpbinApi';
 	displayName = 'HttpBin API';
-	documentationUrl = '<your-docs-url>';
+	documentationUrl = 'https://github.com/iFurySt/n8n-nodes-notion-to-markdown';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'Token',
